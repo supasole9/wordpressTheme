@@ -89,6 +89,9 @@ Tags: Tags to locate your theme in the WordPress theme repository
      color: #FFF;
 }
 
+.foot-ctr{
+     text-align: center;
+}
 
  @media (max-width:992px){
  .container {width:95%;}
