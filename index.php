@@ -1,17 +1,4 @@
 <?php get_header(); ?>
-<div class="container">
-     <div id="intro" class="row">
-          <div class="col4l">
-               <img src="flat-earth.png" alt="flat-earth" class="responsive">
-          </div>
-          <div id="intro-right" class="col8l col12x">
-               <h1>Turning your world upside-down</h1>
-               <p>Trust your eyes and heart</p>
-               <a href="#">Open your eyes</a>
-          </div>
-     </div>
-</div>
-
 <div class="content">
 	<?php if ( have_posts() ) : ?>
 		<?php while ( have_posts() ) : the_post(); ?>
