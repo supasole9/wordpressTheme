@@ -73,7 +73,7 @@ Tags: Tags to locate your theme in the WordPress theme repository
       text-decoration: none;
       color: #FFF;
       border: 2px solid;
-      padding: 2rem 5rem;
+      padding: 5px 10px;
  }
 
  .flex{
@@ -81,6 +81,11 @@ Tags: Tags to locate your theme in the WordPress theme repository
       flex-direction: row-reverse;;
       justify-content: space-between;
       align-items: center;
+}
+
+.flex a{
+     text-decoration: none;
+     color: #FFF;
 }
 
 
