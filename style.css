@@ -76,6 +76,13 @@ Tags: Tags to locate your theme in the WordPress theme repository
       padding: 2rem 5rem;
  }
 
+ .flex{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+}
+
 
  @media (max-width:992px){
  .container {width:95%;}
