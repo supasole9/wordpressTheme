@@ -23,6 +23,7 @@ Tags: Tags to locate your theme in the WordPress theme repository
 }
 
  nav{
+      background: #772A8B;
       display: flex;
       justify-content: space-between;
  }
