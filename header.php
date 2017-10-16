@@ -17,7 +17,9 @@
                     <div class="logo">
                          <h2>Flat Earth</h2>
                     </div>
-                    <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+                    <ul>
+                         <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+                    </ul>
                </nav>
           </div>
      </header>
