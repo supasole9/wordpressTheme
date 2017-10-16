@@ -38,6 +38,8 @@ Tags: Tags to locate your theme in the WordPress theme repository
  #menu-main-nav li{
       display: block;
       border: 1px solid transparent;
+      margin: 0 5px;
+      padding: 2px 5px;
  }
 
  #menu-main-nav li:hover{
