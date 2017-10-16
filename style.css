@@ -89,6 +89,10 @@ Tags: Tags to locate your theme in the WordPress theme repository
      color: #FFF;
 }
 
+footer{
+     margin: 25px 0;
+}
+
 .foot-ctr{
      text-align: center;
 }
