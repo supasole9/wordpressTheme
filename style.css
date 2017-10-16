@@ -1,0 +1,68 @@
+/*
+Theme Name: RSTA
+Description: Responsive Design
+Version: 1.0
+Author: Ross Salanoa
+Author URI: http://www.rstalife.com
+Tags: Tags to locate your theme in the WordPress theme repository
+*/
+
+*, *::before, *::after{
+      box-sizing: border-box;
+ }
+
+ body{
+      background-color: #32003F;
+      font-family: montserrat;
+      color: #FFF;
+ }
+
+ .container{
+      margin: 0 auto;
+ }
+
+ nav{
+      display: flex;
+      justify-content: space-between;
+ }
+
+ nav ul{
+      width: 30%;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+ }
+
+ nav li{
+      display: block;
+ }
+
+ nav li a{
+      text-decoration: none;
+      color: #FFF;
+      font-size: .8rem;
+ }
+
+ hr{
+      width: 98%;
+ }
+
+ #intro{
+      display: flex;
+      align-items: center;
+
+ }
+
+ #intro-right h1{
+      font-size: 2.5rem;
+      margin-bottom: 2.5rem;
+ }
+
+ #intro-right a{
+      text-decoration: none;
+      color: #FFF;
+      border: 2px solid;
+      padding: 2rem 5rem;
+ }
