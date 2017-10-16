@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="container"
 <div class="content">
 	<?php if ( have_posts() ) : ?>
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -26,6 +27,7 @@
 		<?php else : ?>
 	<?php endif; ?>
 </div><!--.content-->
+</div>
 
 <div id="liveshow">
      <div class="container">
