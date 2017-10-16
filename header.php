@@ -18,10 +18,7 @@
                          <h2>Flat Earth</h2>
                     </div>
                     <ul>
-                         <li><a href="#">About</a></li>
-                         <li><a href="#">Why</a></li>
-                         <li><a href="#">How</a></li>
-                         <li><a href="#">Contact</a></li>
+                         <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
                     </ul>
                </nav>
           </div>
