@@ -12,16 +12,16 @@
 </head>
 <body>
      <header>
-          <div class="container">
                <nav>
+				<div class="container">
                     <div class="logo">
                          <h2>Flat Earth</h2>
                     </div>
                     <ul id="nav-ul">
                          <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
                     </ul>
-               </nav>
-          </div>
+          		</div>
+			</nav>
      </header>
      <div class="container">
           <div id="intro" class="row">
