@@ -17,9 +17,21 @@
                     <div class="logo">
                          <h2>Flat Earth</h2>
                     </div>
-                    <ul>
+                    <ul id="nav-ul">
                          <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
                     </ul>
                </nav>
           </div>
      </header>
+     <div class="container">
+          <div id="intro" class="row">
+               <div class="col4l">
+                    <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/flat-earth.png" alt="flat-earth" class="responsive">
+               </div>
+               <div id="intro-right" class="col8l col12x">
+                    <h1>Turning your world upside-down</h1>
+                    <p>Trust your eyes and heart</p>
+                    <a href="#">Open your eyes</a>
+               </div>
+          </div>
+     </div>
