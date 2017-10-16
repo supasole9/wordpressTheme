@@ -35,9 +35,16 @@ Tags: Tags to locate your theme in the WordPress theme repository
       align-items: center;
  }
 
- nav li{
+ #menu-main-nav li{
       display: block;
+      border: 1px solid transparent;
  }
+
+ #menu-main-nav li:hover{
+      border: 1px solid white;
+      transition: all .5s;
+}
+
 
  nav li a{
       text-decoration: none;
