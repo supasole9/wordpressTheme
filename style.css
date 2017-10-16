@@ -78,7 +78,7 @@ Tags: Tags to locate your theme in the WordPress theme repository
 
  .flex{
       display: flex;
-      flex-direction: row;
+      flex-direction: row-reverse;;
       justify-content: space-between;
       align-items: center;
 }
