@@ -27,7 +27,7 @@ Tags: Tags to locate your theme in the WordPress theme repository
       justify-content: space-between;
  }
 
- #nav-ul{
+ #menu-main-nav{
       list-style: none;
       display: flex;
       flex-direction: row;
