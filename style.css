@@ -89,6 +89,12 @@ Tags: Tags to locate your theme in the WordPress theme repository
      color: #FFF;
 }
 
+.comments a{
+     text-decoration: none;
+     font-size: .8rem;
+     color: #6F008B;
+}
+
 footer{
      margin: 25px 0;
 }
