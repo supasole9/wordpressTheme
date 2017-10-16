@@ -26,7 +26,7 @@
      <div class="container">
           <div id="intro" class="row">
                <div class="col4l">
-                    <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/flat-earth.png" alt="flat-earth" class="responsive">
+                    <img src="<?php echo get_bloginfo( 'template_directory' );?>/flat-earth.png" alt="flat-earth" class="responsive">
                </div>
                <div id="intro-right" class="col8l col12x">
                     <h1>Turning your world upside-down</h1>
